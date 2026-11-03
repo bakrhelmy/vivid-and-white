@@ -88,8 +88,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 500; margin: 0; lin
 .lang { display: flex; align-items: center; gap: 4px; font-weight: 700; font-size: 18px; text-transform: lowercase; }
 .lang svg { width: 14px; height: 14px; }
 
-.main-nav { grid-column: 2 / -1; padding-bottom: 12px; }
-.main-nav ul { display: flex; gap: 30px; align-items: center; }
+.main-nav { grid-column: 2; padding-bottom: 12px; }
+.main-nav ul { display: flex; gap: 30px; align-items: center; justify-content: center; }
 .main-nav a, .main-nav button { font-size: 14px; display: inline-flex; align-items: center; gap: 6px; padding: 6px 0; }
 .main-nav a:hover, .main-nav button:hover { opacity: .65; }
 .main-nav svg { width: 12px; height: 12px; flex: none; }
